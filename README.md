@@ -3,7 +3,9 @@
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+  * Install development dependencies with `npm install`
+  * Auto-recompile PureScript code to Erlang code by running `npm watch`
+  * In another terminal, start the web server with `npm run dev`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 

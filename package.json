@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "dev": "elixir --name hello@127.0.0.1 --cookie hello -S mix phx.server",
+    "watch": "spago build && chokidar \"src/**/*.purs\" -c \"spago build\""
+  },
   "dependencies": {
+    "chokidar-cli": "^3.0.0",
     "purty": "^7.0.0"
   }
 }
