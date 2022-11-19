@@ -1,4 +1,4 @@
-module Hello where
+module MyDir.MyMod where
 
 import Prelude
 

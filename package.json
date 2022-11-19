@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "clean": "rm -rf output && rm -rf ebin",
     "dev": "elixir --name hello@127.0.0.1 --cookie hello -S mix phx.server",
     "watch": "spago build --watch --clear-screen"
   },
