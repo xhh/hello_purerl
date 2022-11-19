@@ -54,6 +54,9 @@ config :hello, HelloWeb.Endpoint,
     ]
   ]
 
+# Recompile when Erlang files are changed.
+config :hello, HelloWeb.Endpoint, reloadable_compilers: [:erlang, :elixir]
+
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
 
