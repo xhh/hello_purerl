@@ -1,5 +1,7 @@
 {
     "purescript.codegenTargets": [
         "corefn"
-    ]
+    ],
+    "purescript.addSpagoSources": true,
+    "purescript.buildCommand": "spago build --purs-args --json-errors"
 }
