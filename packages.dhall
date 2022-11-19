@@ -98,8 +98,11 @@ in  upstream
       }
 -------------------------------
 -}
+-- let upstream =
+--       https://github.com/purescript/package-sets/releases/download/psc-0.15.4-20221118/packages.dhall
+--         sha256:954918dd213aeec44d37c199fd93ae5b7eedb8754cea1afb27ffe8869a93f06c
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.15.4-20221118/packages.dhall
-        sha256:954918dd213aeec44d37c199fd93ae5b7eedb8754cea1afb27ffe8869a93f06c
+      https://github.com/purerl/package-sets/releases/download/erl-0.15.3-20220629/packages.dhall
+        sha256:48ee9f3558c00e234eae6b8f23b4b8b66eb9715c7f2154864e1e425042a0723b
 
 in  upstream
