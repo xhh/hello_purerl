@@ -45,3 +45,4 @@ node_modules
 .psci
 .psc-ide-port
 output
+/ebin/
