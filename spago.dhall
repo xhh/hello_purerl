@@ -12,7 +12,8 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , backend = "purerl"
-, dependencies = [ "console", "effect", "prelude" ]
+, dependencies =
+  [ "console", "effect", "erl-queue", "maybe", "prelude" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }

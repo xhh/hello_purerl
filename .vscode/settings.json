@@ -3,5 +3,6 @@
         "corefn"
     ],
     "purescript.addSpagoSources": true,
-    "purescript.buildCommand": "spago build --purs-args --json-errors"
+    "purescript.buildCommand": "spago build --purs-args --json-errors",
+    "files.eol": "\n"
 }
